@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+:root{
+    --font-family: 'Share Tech', sans-serif;
+    --cor-principal:#D6E4E5;
+    --cor-secundaria:#497174;
+    --cor-auxiliae:#EB6440;
+}
+body {
+    background-color:var(--cor-principal) ;
+    color: var(--cor-auxiliae);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1{
+    font-size: 6em;
+}
+h3{ 
+    margin-top: 20px;
+    font-size: 3em;
+}
+.mensagem{
+    
+    margin: 25px;
+    font-size: 2em;
+}
+.box{
+    border: 5px solid var(--cor-secundaria);
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 10px;
+}
+.box2{
+
+    color: var(--cor-secundaria);
+    border: 9px solid var(--cor-auxiliae);
+    border-radius: 40px 0px;
+    display: inline-block;
+    font-size: 15em;
+    padding: 10px;
+    margin: 10px;
+}
+#jogarNovamente{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: var(--cor-auxiliae);
+    color: var(--cor-principal);
+    font-size: 25px;
+}
+#jogarNovamente:hover{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    font-size: 25px;
+}
